@@ -36,5 +36,35 @@ The initial gleam app is just the Counter example from the Lustre walkthrough. I
 Today I set up `jj` and I'm excited to learn more about it. I decided to co-locate this with a traditional `git` repo because Gleam creates a Github scaffold by default. As noted [in jj's docs on that matter](https://github.com/jj-vcs/jj/blob/main/docs/git-compatibility.md), it is possible (and so convenient!) to interleave `git` and `jj` commands freely, but using mutating `git` commands is not recommended. Let's hope I'll not accidentally use any of those!
 
 ```shell
-jj describe -m 
+jj st
 ```
+
+Lists the files changed since the last commit.
+
+```shell
+jj describe -m "{Conventional commit message}"
+jj new
+jj log
+```
+
+```shell
+@  spnupstm upsiflu@gmail.com 2025-05-01 15:29:44 f6aec9db
+│  (empty) (no description set)
+○  mrnmpqlz upsiflu@gmail.com 2025-05-01 15:28:48 git_head() adab00d5
+│  🎉
+◆  zzzzzzzz root() 00000000
+```
+
+`@`: The current state (potentially dirty from Git's perspective)
+
+`spnupstm`: Change ID
+
+`{Author, Date}`
+
+`f6aec9db`: Commit ID
+
+`root()`: A "revset" function (What's that?)
+
+### `jj`: Squash workflow vs. Edit workflow
+
+These are described in [Steve Klabnik's tutorial](https://steveklabnik.github.io/jujutsu-tutorial/real-world-workflows/the-squash-workflow.html) which I'm reproducing here. Let's see which of the two workflows I prefer.
