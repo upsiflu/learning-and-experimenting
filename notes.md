@@ -148,11 +148,5 @@ jj git remote add origin https://codeberg.org/upsiflu/learning-and-experimenting
 3. Push to the remote
 
 ```shell
-jj git push
-```
-
-Since the remote `main` branch already exists, I need to resolve a conflict (I think). Let`s try:
-
-```shell
-jj git fetch --remote origin
+jj git push --remote origin --allow-new
 ```
