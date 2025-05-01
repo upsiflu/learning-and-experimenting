@@ -91,3 +91,10 @@ If we want to be granular about what to squash, we use
 jj squash -i
 ```
 
+This is a TUI similar to `git rebase` but much simpler and friendlier!
+
+### Edit workflow
+
+This one is for inserting commits before the current one!
+
+hese are things I`ll revert later
