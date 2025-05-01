@@ -97,4 +97,16 @@ This is a TUI similar to `git rebase` but much simpler and friendlier!
 
 This one is for inserting commits before the current one!
 
-hese are things I`ll revert later
+```shell
+jj new -B @ -m "docs(notes): Use semantic sub-headlines instead of markup"
+```
+
+I am now in a new edit between "Try out the Squash workflow" and "Try out the Edit workflow". I then intenionally edit the heading that was also edited by the succeeding "Try out the Edit workflow" edit. Of course this creates a conflict at the Headline with 3 possible resolutions (Pre-edits, Edit A, or Edit B).
+
+```shell
+jj next --edit
+jj resolve
+```
+
+With `next`, I am moving my cursor to the last edit in the chain ("Try out the Edit workflow"). With `resolve`, I am opening the cute TUI and select the currect version of the Headline. Of course, I can also just resolve the conflict in the editor buffer directly, but the TUI really removes the clutter :-)
+
