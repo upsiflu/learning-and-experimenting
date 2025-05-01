@@ -121,3 +121,38 @@ jj new {single letter or 2 letters as highlighted in the output}
 jj squash
 jj new {letter or 2 letters of latest empty commit}
 ```
+
+### Publishing to `git` repositories
+
+I want to publish this project both to GitBerg and GitHub.
+
+I know this will open a can of worms (which one manages the issues, etc.) but:
+
+- GitHub can do the GitHub Actions
+- I want to learn CodeBerg
+- Maybe CodeBerg has its own CI infrastructure? Probably not.
+- CodeBerg is FOSS and not MS.
+
+1. Set a "bookmark" (equivalent to git's "branch", except that new commits are not automatically added to it)
+
+```shell
+jj bookmark set main
+```
+
+2. Add a remote
+
+```shell
+jj git remote add origin https://codeberg.org/upsiflu/learning-and-experimenting.git
+```
+
+3. Push to the remote
+
+```shell
+jj git push
+```
+
+Since the remote `main` branch already exists, I need to resolve a conflict (I think). Let`s try:
+
+```shell
+jj git fetch --remote origin
+```
