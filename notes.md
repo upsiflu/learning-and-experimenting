@@ -157,6 +157,8 @@ To make future pushes more convenient and safe, I follow [CodeBerg's guide to SS
 jj git remote set-url origin ssh://git@codeberg.org/upsiflu/learning-and-experimenting.git
 ```
 
+**Note:** After each push, old changes become immutable. This is where the flag `--ignore-immutable` comes in. Let's try it out by editing a pre-push change.
+
 ### Verdict: `jj` is easier to learn and more expressive than `git`
 
 - Instead of many commands for special conditions, it has just ca. 5, highly composable ones
