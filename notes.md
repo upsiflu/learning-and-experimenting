@@ -162,5 +162,6 @@ jj git remote set-url origin ssh://git@codeberg.org/upsiflu/learning-and-experim
 - Instead of many commands for special conditions, it has just ca. 5, highly composable ones
 - The state of the tree is much easier to understand
 - It's trivial and safe to edit past commits
+- All the interactions only give me the information I need; there is no noise that confuses me
 - The naming of commands and objects actually makes sense (!)
 - The integration with the `git` backend is seamless. Which makes me want to use the `jj` CLI in all my git-backed projects
