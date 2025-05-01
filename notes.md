@@ -68,3 +68,26 @@ jj log
 ### `jj`: Squash workflow vs. Edit workflow
 
 These are described in [Steve Klabnik's tutorial](https://steveklabnik.github.io/jujutsu-tutorial/real-world-workflows/the-squash-workflow.html) which I'm reproducing here. Let's see which of the two workflows I prefer.
+
+**Squash**
+
+We begin with a new (empty) change.
+
+1. `describe` the intended change
+2. Start another `new` (empty) change
+
+```shell
+└─$ jj new
+Working copy  (@) now at: vmoytrnn e90b13ac (empty) (no description set)
+Parent commit (@-)      : upsxxwqx a69f36c5 (empty) docs(notes): Try out the Squash workflow
+```
+
+3. Edit
+4. `jj squash` `{optional: files to include}`
+
+If we want to be granular about what to squash, we use
+
+```shell
+jj squash -i
+```
+
