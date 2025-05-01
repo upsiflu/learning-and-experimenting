@@ -151,7 +151,11 @@ jj git remote add origin https://codeberg.org/upsiflu/learning-and-experimenting
 jj git push --remote origin --allow-new
 ```
 
-To make future pushes more convenient and safe, I follow [CodeBerg's guide to SSH auth].
+To make future pushes more convenient and safe, I follow [CodeBerg's guide to SSH auth]. The following command then informed `jj` about the new authentication method:
+
+```shell
+jj git remote set-url origin ssh://git@codeberg.org/upsiflu/learning-and-experimenting.git
+```
 
 ### Verdict: `jj` is easier to learn and more expressive than `git`
 
