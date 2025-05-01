@@ -69,7 +69,7 @@ jj log
 
 These are described in [Steve Klabnik's tutorial](https://steveklabnik.github.io/jujutsu-tutorial/real-world-workflows/the-squash-workflow.html) which I'm reproducing here. Let's see which of the two workflows I prefer.
 
-**Squash**
+#### Squash workflow
 
 We begin with a new (empty) change.
 
