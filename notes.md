@@ -150,3 +150,13 @@ jj git remote add origin https://codeberg.org/upsiflu/learning-and-experimenting
 ```shell
 jj git push --remote origin --allow-new
 ```
+
+To make future pushes more convenient and safe, I follow [CodeBerg's guide to SSH auth].
+
+### Verdict: `jj` is easier to learn and more expressive than `git`
+
+- Instead of many commands for special conditions, it has just ca. 5, highly composable ones
+- The state of the tree is much easier to understand
+- It's trivial and safe to edit past commits
+- The naming of commands and objects actually makes sense (!)
+- The integration with the `git` backend is seamless. Which makes me want to use the `jj` CLI in all my git-backed projects
