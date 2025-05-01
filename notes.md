@@ -110,3 +110,14 @@ jj resolve
 
 With `next`, I am moving my cursor to the last edit in the chain ("Try out the Edit workflow"). With `resolve`, I am opening the cute TUI and select the currect version of the Headline. Of course, I can also just resolve the conflict in the editor buffer directly, but the TUI really removes the clutter :-)
 
+### Editing old commits
+
+This is quite elegant. We first navigate through the tree by selecting old commits and appending new changes to them, then confirm these changes with `squash`. To get back to the latest edit, we can `jj new {latest commit}` and see the complete result.
+
+```
+jj log
+jj new {single letter or 2 letters as highlighted in the output}
+(Edit)
+jj squash
+jj new {letter or 2 letters of latest empty commit}
+```
