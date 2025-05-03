@@ -1,8 +1,66 @@
-Two application ideas led me to the same UX pattern. The first is an viewer/editor for pattern languages where chains of relations between patterns are first-class objects. The second is a survery viewer/editor where the author manipulates "stories" (alternative paths through the graph) explicitely. In both cases, we are are traversing/editing two structures at once: a graph of elements we can visit (patterns resp. questions) and a collection of stories (all possible visitors' paths). I have explored a similar problem previously when I experimented with tree-zippers and made the movingacrossthresholds website.
+Two application ideas led me to the same UX pattern. The first is a
+viewer/editor for pattern languages where chains of relations between
+patterns are first-class objects. The second is a survery viewer/editor
+where the author manipulates "stories" (alternative paths through the
+graph) explicitly. In both cases, we are are traversing/editing two
+structures at once: a graph of elements we can visit (patterns resp.
+questions) and a collection of stories (all possible visitors' paths).
+I have explored a similar problem previously when I experimented with
+tree-zippers and made the movingacrossthresholds website.
 
-# A Graph of Stories around me
+# A Bundle of Stories extending around me
 
-This pattern centers the visitor within the nweb of possible stories.
+## tl;dr
+
+When editing a bundle of stories such as a branching survey,
+authors need to focus on the flow all all stories at once.
+A navigation-centric interface places the authors "into" the story
+and removes all irrelevant context. They can directly modify both
+the graph structure and the individual stories flowing through it
+without distraction.
+
+```mermaid
+graph TD
+    A((Start)) --> B[Question 1]
+    B --> |Option A| C[Question 2A]
+    B --> |Option B| D[Question 2B]
+    C --> E[Question 3]
+    D --> E
+    D --> F[Question 3B]
+    E --> G((End))
+    F --> H((End B))
+    
+    subgraph "User's Current View"
+        D
+        style D fill:#bbf,stroke:#33f,stroke-width:4px
+    end
+    
+    subgraph "Accessible Context"
+        B
+        E
+        F
+        style B fill:#ddf,stroke:#999,stroke-width:2px
+        style E fill:#ddf,stroke:#999,stroke-width:2px
+        style F fill:#ddf,stroke:#999,stroke-width:2px
+    end
+    
+    classDef empty fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,G,H empty;
+    
+    linkStyle 1 stroke:#33f,stroke-width:2px;
+    linkStyle 3 stroke:#33f,stroke-width:2px;
+```
+
+## Use When
+
+- Creating branching stories (surveys, choose-your-own-adventures,
+  pattern languages)
+- Storytelling and narrative flow are more important than other concerns
+- Users need to intuitively navigate and modify intersecting story paths
+- Multiple stories may share common elements but each story remains
+  distinct and assessable
+- Context-switching would disrupt the creation process
+- Users often revise earlier choices
 
 ## Problem
 
@@ -61,8 +119,6 @@ storylines, since they may have been affected by the logic change I made.
 
 ## Solution
 
-**Center the visitor within the web of possible stories**.
-
 For editing surveys and similar branching narrative structures, the stories
 most be front and center. At any moment, one question is in the center
 of my screen, and I can see all stories that traverse it: the context that
@@ -71,22 +127,22 @@ At a glance, I can distinguish the different storylines.
 
 If I am an author, I can have a limited set of predictable edit operations at
 my disposal. Only operations that make sense at the current moment are
-available.
+available. Things that are not part of the writing process are hidden.
 
-1. **Limiting choices** - Users only see options relevant to their
-  current position rather than the entire graph
-2. **Progressive disclosure** - Information is revealed gradually
-  as users move through the graph
-3. **Clear context** - By always knowing exactly where they are,
-  users don't need to maintain a mental map of the entire structure
-4. **Simplified navigation** - The "Up", "Down", and "Choose option"
-  commands provide consistent, predictable movement. Interactions
-  such as tabbing and scrolling (which web users expect) smoothly
-  translate into "up" and "down" movements.
-5. **Focus on storytelling** - Authors can concentrate on the content at
+1. **Focus on storytelling** - Authors can concentrate on the content at
   their current position without worrying about the entire graph structure
   At a glance, they can see how stories branch and flow. After all, stories
   are what the author creates.
+2. **Limiting choices** - Users only see options relevant to their
+  current position rather than the entire graph
+3. **Progressive disclosure** - Information is revealed gradually
+  as users move through the graph
+4. **Clear context** - By always knowing exactly where they are,
+  users don't need to maintain a mental map of the entire structure
+5. **Minimal navigation** - The "Up", "Down", and "Choose option"
+  commands provide consistent, predictable movement. Interactions
+  such as tabbing and scrolling (which web users expect) smoothly
+  translate into "up" and "down" movements.
 
 This proposal reduces the temporal and spatial dimensions according to the
 flow of stories:
@@ -111,7 +167,7 @@ might mean, in the context of a survey editor.
 |  |   |
 |------|-------------------|
 | **Acyclic** | The path never loops back to a node you've already visited |
-| **Directed** | The questions in the survey have a defined sequence |
+| **Directed** | The questions in the survey have a fixed sequence |
 | **Connected graph** | All parts of the survey can be reached somehow |
 | **Node** | A single question in the survey |
 
@@ -120,7 +176,7 @@ might mean, in the context of a survey editor.
 - A **Node** in the acyclic, directed, connected graph is either empty
   or has content.
 - A **Story** is a one continuous path from one empty node to another empty
-  node in the graph.
+  node in the graph, traversing adjacent non-empty nodes without loops.
 - A **Trace** is the sequence of choices a visitor has made following their story,
   down to their current position. A trace is "complete" at the end of the story.
 
@@ -201,10 +257,11 @@ Authors can use the following commands to alter the Storygraph:
   remainder of another story that traverses the current node. _Only available
   if there are more stories traversing the current node._ Cycles through them.
 
-### Data Persistence and Sharing (without user accounts)
+## Related patterns
 
-- **Shareable URLs**: Generate unique, cryptographically secure links that encode the state of a specific storygraph
-- **Local storage**: Enable authors to save work-in-progress to their device
-- **Export/Import**: Allow complete graphs to be exported as JSON/YAML files that can be shared and reimported
-- **QR code generation**: Create scannable codes for physical sharing of stories in community settings
-- **Time-limited access**: Consider expiring links for sensitive content after a certain period
+- **Anonymous-first**: Let authors start writing publicly without authenticating them 
+- **Offline-first**: Use local storage and import/export functionality so users don't need to go online as much
+- **Afk-first**: Create scannable QR codes for physical sharing of stories in community settings, and export to PDF
+- **Shareable URLs**: Generate unique links that encode exactly one model
+- **p2p collaboration**: Let users work together without a central server in between
+- **Live presence**: Show where peers are right now, within the collaborative datastructure
