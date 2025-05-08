@@ -1,4 +1,4 @@
-# A Bundle of Stories extending around me
+# A Bundle of Stories unfolding around me
 
 When editing a bundle of stories such as a branching survey,
 authors need to focus on the flow of all stories at once.
