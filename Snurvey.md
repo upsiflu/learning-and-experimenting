@@ -27,7 +27,7 @@ The submitted response, together with the respondent key, will be encrypted with
 
 ## Implementation
 
-- `yjs` implements [Local-first shared data structures](Snurvey#Local-first), [Mutual awareness](Snurvey#Mutual awareness) and [infinite undo and redo](Snurvey#Infinite undo and redo). It is backed by the in-browser `indexedDB` for offline persistence.
+- `yjs` implements [Local-first shared data structures](./Snurvey.md#Local-first), [Mutual awareness](Snurvey#Mutual awareness) and [infinite undo and redo](Snurvey#Infinite undo and redo). It is backed by the in-browser `indexedDB` for offline persistence.
 - `secsync` implements [Confidentiality](Snurvey#Confidentiality) and [Anonymity](Snurvey#Anonymity)
 with an end-to-end encrypted yjs backend. There will be no domain-specific logic on the backend.
 - Symmetric keys can be exchanged over
@@ -98,6 +98,10 @@ Given they keep their keys, users can always undo any of their past edits. Even 
 ### Experimental UX
 
 **Let multiple users edit the bundle simultaneously**
+
+### User testing
+
+TODO: Describe what to research here
 
 -----
 
