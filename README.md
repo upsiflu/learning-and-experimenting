@@ -1,8 +1,22 @@
-# app
+# Learning and experimenting
 
 This repository is meant for me (flupsi) to learn nice things and try them out. I have a capricious memory, so this place will serve as an archive of what and how I am learning, especially when I run against a wall.
 
-Check out my [notes](./notes.md) for details.
+Check out my [notes](./notes.md) for details. Or jump right into my stories...
+
+---
+
+- [Community experience patterns](./CommunityExperience.md)
+- [UX pattern "A bundle of stories unfolding around me"](./StoryBundle.md)
+- [Motivation: Compose pattern sequences into pattern languages](./ComposingPatterns.md)
+
+▲
+
+## [Snurvey: Collective authoring of story bundles (experimental interface)](./Snurvey.md)
+
+▼
+
+
 
 ---
 

@@ -1,10 +1,15 @@
-◤ [Community experience patterns](./CommunityExperience.md)
+- [Community experience patterns](./CommunityExperience.md)
 
-◤ [UX pattern "A bundle of stories unfolding around me"](./StoryBundle.md)
+▲
 
 # Composing pattern sequences in(to) a pattern language
 
-◢ [Prototype for testing](./Snurvey.md)
+▼
+
+- [UX pattern "A bundle of stories unfolding around me"](./StoryBundle.md)
+- [Prototype for testing](./Snurvey.md)
+
+---
 
 <!--toc:start-->
 - [#Scope](#scope)

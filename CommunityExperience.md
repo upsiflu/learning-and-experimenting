@@ -1,4 +1,14 @@
+[▲](./README.md)
+
 # Community Experience Patterns
+
+▼
+
+- [UX pattern "A bundle of stories unfolding around me"](./StoryBundle.md)
+- [Prototype for a _collective survey authoring_ app](./Snurvey.md)
+
+---
+
 
 _UX patterns for designers and engineers who want to build and maintain community-centric platforms._
 
