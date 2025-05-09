@@ -509,6 +509,13 @@ practice     |→               Community/User story  ↓
   - Software can frustrate through misguidance
   - Software can manipulate through suggestion
 
+----
+
+
+
+
+
+
 # jj
 
 Graphical CheatSheet <3 <3 https://justinpombrio.net/src/jj-cheat-sheet.pdf

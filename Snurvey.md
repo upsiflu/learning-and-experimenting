@@ -1,4 +1,3 @@
-- [Community experience patterns](./CommunityExperience.md)
 - [UX pattern "A bundle of stories unfolding around me"](./StoryBundle.md)
 - [Motivation: Compose pattern sequences into pattern languages](./ComposingPatterns.md)
 
@@ -7,6 +6,8 @@
 # Snurvey: App prototype for co-authoring story bundles (surveys)
 
 ▼
+
+- [Data structure](./StoryBundleDataStructure.md)
 
 ---
 
