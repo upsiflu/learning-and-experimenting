@@ -7,7 +7,8 @@
 ▼
 
 - [UX pattern "A bundle of stories unfolding around me"](./StoryBundle.md)
-- [Prototype for testing](./Snurvey.md)
+- [Prototype for testing this idea](./Snurvey.md)
+- [Data structure](./StoryBundleDataStructure.md)
 
 ---
 

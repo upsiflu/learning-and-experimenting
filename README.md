@@ -2,7 +2,7 @@
 
 This repository is meant for me (flupsi) to learn nice things and try them out. I have a capricious memory, so this place will serve as an archive of what and how I am learning, especially when I run against a wall.
 
-Check out my [notes](./notes.md) for details. Or jump right into my stories...
+Check out my [notes](./notes.md). Or jump right into my stories...
 
 ---
 
@@ -16,7 +16,7 @@ Check out my [notes](./notes.md) for details. Or jump right into my stories...
 
 ▼
 
-
+- [Data structure](./StoryBundleDataStructure.md)
 
 ---
 

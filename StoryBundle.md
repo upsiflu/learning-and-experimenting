@@ -7,6 +7,7 @@ _Community experience pattern (rough idea)_
 ▼
 
 - [Prototype for testing](./Snurvey.md)
+- [Story bundle (data structure)](./StoryBundleDataStructure.md)
 
 ---
 
