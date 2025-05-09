@@ -1,5 +1,9 @@
 # A Bundle of Stories unfolding around me
 
+◢ [Prototype for testing](./Snurvey.md)
+
+◢ [Prototype for testing](./Snurvey.md)
+
 When editing a bundle of stories such as a branching survey,
 authors need to focus on the flow of all stories at once.
 A navigation-centric interface places the authors "into" the story
