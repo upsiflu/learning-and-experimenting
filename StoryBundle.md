@@ -275,7 +275,7 @@ might mean, in the context of a survey editor.
 
 1. **Full Coverage:** All nodes and edges of the directed acyclic graph are
    traversed by at least one story
-2. **Uniqueness:** No two stories follow identical paths through the graph
+2. **Uniqueness:** No two stories follow identical paths through the graph. (Above 7 or so stories, it may be sensible to display similar stories in the same color [like the new NYC subway map does](https://www.mta.info/press-release/mta-unveils-first-fully-redesigned-subway-map-half-century))
 3. **Constructibility:** Every valid storygraph can be turned into any
    other valid storygraph through a series of edits
 

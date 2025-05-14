@@ -8,7 +8,13 @@ import lustre/element.{type Element}
 import lustre/element/html
 import lustre/event
 import rsvp
+import beautiful
 
+//// Module comment
+
+// General comment
+
+/// Function comment
 pub fn main() {
   let app = lustre.application(init, update, view)
   let assert Ok(_) = lustre.start(app, "#app", Nil)
@@ -54,6 +60,8 @@ fn update(model: Model, msg: Msg) -> #(Model, Effect(Msg)) {
   }
 }
 
+/// Function comment
+/// 
 fn get_cat() -> Effect(Msg) {
   let decoder = {
     use id <- decode.field("id", decode.string)

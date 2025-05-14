@@ -104,7 +104,10 @@ Given they keep their keys, users can always undo any of their past edits. Even 
 
 ### Experimental UX
 
-**Let multiple users edit the bundle simultaneously**
+-> [**Let multiple users edit the bundle simultaneously** — description of a UX pattern](./StoryBundle.md)
+
+- **Story coloring** - Infer a color from the content of the content(!) of the answers a story traverses. Use [a perceptual hash](https://en.wikipedia.org/wiki/Perceptual_hashing) of that content so that small changes in the content or the path don't affect the color much. (Open question: how can we tweak the source or the algorithm such that subpaths and superpaths have similar fingerprints?) 
+Above 7 or so stories, it may be sensible to display similar stories in the same color [like the new NYC subway map does](https://www.mta.info/press-release/mta-unveils-first-fully-redesigned-subway-map-half-century).
 
 ### User testing
 

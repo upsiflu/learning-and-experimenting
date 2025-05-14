@@ -4,6 +4,7 @@ target = "javascript"
 
 description = ""
 licences = ["MIT"]
+
 repository = { type = "codeberg", user = "upsiflu", repo = "" }
 links = [{ title = "Website", href = "https://flupsi.com" }]
 
