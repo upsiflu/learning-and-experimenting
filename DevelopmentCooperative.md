@@ -46,3 +46,76 @@ The Chariot (major arcanum VII) is an unstoppable force. Its strength comes from
 > "I am full, absolutely full, of strength. Nothing is wasted; I am rooted in the planet and a lover of all its energies. They propel my movement. Like a knight of fire, I do not budge from my place. I do not crawl upon the ground. I see on high. I travel with time without ever leaving the moment. Without past, without future, the sole time possible: the present, like a jewel beyond measure. Everything here is nowhere else."
 
 > "I traverse the night of doubt over the abyss of myself. I sever the knot of enigmas, I go beyond the agony of being, I scorn appearances, I free feelings from reason, I destroy all that opposes me, I am what I am."
+
+
+
+
+
+-----
+
+Less enclosure means more abundance for all of us: Money we don't need immediately is available through our "ATM", a shared pool for money. Without condition or accountability towards Others, each of us can access this money. It is not a separate bank account but consists of any money each of us can decide to put up. It can be regarded as a method to not privatize money prematurely, and for each of us us to unlearn defending financial decisions.
+
+Against patriarchy, and we start from within:
+- queer-only
+- initiative+veto principle: Anyone can bring in an initiative and find companions. Likely, anyone can stop such initiatives with a veto. There is no such thing as a primacy of majority. One voice counts as much as many.
+- Programmed failure
+...
+
+
+How?
+COOPERATION
+instead of competition
+
+- initiative+veto principle: Anyone can bring in an initiative and find companions. Likely, anyone can stop such initiatives with a veto. There is no such thing as a primacy of majority. One voice counts as much as many.
+- Actual trust instead of 'smart contracts' and policing
+- Decoupling work from money: Each one according to their needs, each one according to their capacities, each one according to their desires.
+
+
+What?
+ABUNDANCE
+instead of scarcity
+
+- Mutual care; collective learning; Tekmil/Feedback; Celebrating
+- Opportunistic finding of funding opportunities
+- Programmed failure
+
+
+With whom?
+POWER-WITH
+
+- A network of Covens
+- Connected by a shared intention
+- Following the lead of frontline communities
+
+
+
+
+
+----
+
+
+TODO:
+
+
+PRACTICAL 
+
+- Conflict resolution, examples, boundaries
+
+- Project: what kind of projects? Tech, domains, priorization, ...
+
+- Financial risks and typical numbers
+
+
+CLARITY
+
+- What does queer mean?
+
+- Covens?
+
+- Connection to frontline communities
+
+
+PRIOR ART
+
+- ATM
+- Programmed failure, failure criteria, non-commercial projects, commoning
