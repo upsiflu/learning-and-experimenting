@@ -1,4 +1,4 @@
-# "A.T.M.": _An easy and useful method for distributing money within your communities_
+# "D.I.Y. A.T.M.": _An easy and useful method for distributing money within your communities_
 
 ## How it works
 
@@ -33,17 +33,18 @@ The A.T.M. does not come with instructions on how to spend or get money, or how 
 
 ... or find a different way to manage money collectively? 
 
-1. You have **strong mutual trust and some financial abundance** within the group? Only then: YES, start your A.T.M!
-2. You still need to build trust, but have a shares purpose? Then find a more formal way to make decisions about collective spending.
-3. You have trust and shared purpose but no abundance? Probably, fundraising, Soli events, or (careful!) seeking NGO money are ways for you to get the money you need
-4. You have abundance but no mutual trust? Then be charitable and give to fundraisers.
-5. You have strong mutual trust but neither shared purpose nor financial abundance? Leave Babylon immediately and live the rest of your lives on the rainbow gatherings. Or join some industrious community if that's more your thing.
+- You have **strong mutual trust and some financial abundance** within the group? **Only then: YES, start your A.T.M!**
+- You have trust and shared purpose but no abundance? Fundraising, Soli events, ransom, or (carefully!) sucking NGO/EU money may be ways for you to get the money you need.
+- You have a shared purpose and some financial padding but still need to build deep mutual trust? Then find a more formal way to make decisions about collective spending.
+- You have money but no mutual trust? Then be charitable and give to fundraisers.
+- You have strong mutual trust but neither shared purpose nor financial abundance? Leave Babylon immediately and live the rest of your lives on the rainbow gatherings. Or join some industrious community if that's more your thing.
+- You have none of the above? Embrace the labor market ;-)
 
 ## Comparison
 
 Why not keep **a shared bank account**?
 
-- **Discrimination:** With a shared bank account, the bank manages the access. This enforces a specific scheme for decisionmaking. In addition, banks manage credit ratings of everyone, and report to governments and private corporations. With an A.T.M., all those players are out of the equation. It's just the community and some money. You can decide how to make decisions. And nobody is barred from access due to low credit rating or political discrimination.
+- **Discrimination:** With a shared bank account, the bank manages all access. A bank account is usually tied to a "legal" person, and potential disputes go through a discriminatory judicial system. This makes it hard for members of a collective to decide freely and equally. In addition, banks rate everyone's credit worthiness, and report to governments and private corporations. With an A.T.M., all those institootions are out of the equation. It's just the community and some money. You can decide how to make decisions. And nobody is barred from access due to low credit rating or political discrimination.
 - **Speculation:** With a shared bank account, the bank is using the deposited money to speculate on the market, contributing to wars and climate change. In contrast, with an A.T.M., your money 100% goes towards community causes instead.
 
 Why not have **a jar with money**?
@@ -99,7 +100,7 @@ Yes, always! But only to yourself. Your A.T.M. community trusts you to do the ri
 
 It means "Autonomous Collective Liquidity Machine", abbreviated _ColFin_ (like the dolphin, just with collective fin(ance)s). Alternative spelling: CoFi Machine. It can be automated.
 
-Joking aside, yeah, the name A.T.M. _is_ kinda lame. Please send better ideas!
+Joking aside, yeah, the name A.T.M. _is_ kinda lame. And very confusing. Please [send me better ideas!](https://codeberg.org/upsiflu/learning-and-experimenting/issues/new)
 
 **Do I need to install an app to join an A.T.M.?**
 
