@@ -1,10 +1,12 @@
+DRAFT, June 2025
+
 # "D.I.Y. A.T.M.": _An easy and useful method for distributing money within your communities_
 
 ## How it works
 
 1. Connect with peers you **trust**, and that you want to **share abundance** with
 2. **Deposit money** at any time you have more than you need
-3. **Withdraw money** whenever you need it (and receive it almost instantly)
+3. **Withdraw money** whenever you need/want it (and receive it almost instantly)
 4. Never feel bad or worried about your money situation again!
 
 ## Preconditions
@@ -17,17 +19,17 @@
 
 **A community with TRUST and ABUNDANCE can start an A.T.M. to distribute money internally.**
 
-The A.T.M. is just one way to deal with money in a less harmful way than, say, having only private bank accounts, or paying each other for work, or competing with each other for scarce resources, or doing debts. Participants of an A.T.M. can tell each other, "I have more money than I currently need", or "I need more money than I currently have", and then they "automatically" transfer money among each other.
+The A.T.M. is just one way to deal with money in a less harmful way than, say, having only private bank accounts, or paying each other for work, or competing with each other for scarce resources, or doing debts. Participants of an A.T.M. can tell each other, "I have more money than I currently need", or "I need/want more money than I currently have", and then they "automatically" transfer money among each other.
 
-Many of us grew up with the idea that money has to be earned. The flipside being that poverty is your own fault. But we clearly see that poverty and dispossession and inequality and scarcity are created by the wealthy in order to enslave the global majority. So let's decouple money from individual "financial success" and instead celebrate our collective abundance. 
+Many of us grew up with the idea that money has to be earned. The flipside being that poverty is your own fault. But we clearly see that poverty and dispossession and inequality and scarcity and debt are created by the wealthy in order to enslave the global majority. So let's decouple money from individual "financial success" and instead celebrate our collective abundance. 
 
 There are many viable practices of collective finances. **Here's what makes the A.T.M. special:**
 
-1. **Autonomous:** Every participant of an ATM is only accountable to themselves. No majority decisions, no scrutiny or judgement.
-2. **Informal:** We don't need banks or contracts. We build on the mutual trust and care and love and patience and capacities we already have.
+1. **Autonomous:** Every participant of an ATM is only accountable to themselves. No majority decisions, no scrutiny or judgement. There is also no global ATM authority, just an accessible, evolving practice of starting and ending ATMs.
+2. **Informal:** We don't need banks or contracts or formal roles. We build on the mutual trust and care and love and patience and capacities we already have.
 3. **Temporary:** A.T.M.s are meant to fail. Leave when you feel like it, with grace. The risk is quite limited for everyone.
 
-The A.T.M. does not come with instructions on how to spend or get money, or how to self-organize as a community. That's outside of the scope. It's just about distributing money within a community in an easy and useful way.
+The A.T.M. does not come with instructions on how to spend or get money, or how to self-organize as a community. That's outside of the scope. It's just about distributing money within a community in a minimalistic and useful way.
 
 ## Should we start an A.T.M.
 
@@ -72,7 +74,7 @@ Is seems you either ran out of money or out of trust. Just start over with new c
 
 **One of our members always withdraws all of the A.T.M. money!**
 
-Good for them :-)
+Yes, good for them :-)
 
 Also, if their neediness makes you uneasy, ask yourself whether you still want to be in an A.T.M. with them. From my side, you don't have any moral obligations.
 
@@ -88,25 +90,35 @@ Both may lead to frustration and less mutual trust. Only go that route if you ar
 
 In the future, it may be interesting to distribute risks collectively (like the banks and nation-states do).
 
+**I have 100 money on my Bank account. Can I deposit 100,- on each of my A.T.M.s now?**
+
+Yes, especially if those A.T.M.s have different people participating, to make sure nobody withdraws this money from several A.T.M.s at once. Also make sure that as soon as 100,- are withdrawn from one A.T.M., withdraw the others immediately.
+
 **Can I leave an A.T.M.?**
 
 Yes, at any time, with grace, and without an explanation. It's part of the deal.
 
 **Do I need to justify my spending?**
 
-Yes, always! But only to yourself. Your A.T.M. community trusts you to do the right thing. And your peers are always there to if you need their help with financial decisions. But they will never scrutinize and judge your call. That's really what sets this form apart from other ways of collective finance.
+Yes, always! But only to yourself. Your A.T.M. community trusts you to do the right thing. And your peers are always there to if you need their help with financial decisions. But they will never scrutinize and judge your call. 
+
+That's really what sets this form apart from other ways of collective finance!
+
+**Can I give money I withdraw to a friend who is not in the A.T.M.?**
+
+Yes, you can do anything with the money as long as you feel it's the right thing. The special idea of it being a machine is that the other members of the A.T.M. don't need to bother with how the money is spent. If you feel unsure about the use of A.T.M. money, and you desire your peers to co-decide with you, then check out the alternative model "collective decisionmaking" mentioned in the comparison section above. Or invite your friend to join/launch an A.T.M. so they can withdraw what they need themselves.
 
 **What does "A.T.M." mean?**
 
-It means "Autonomous Collective Liquidity Machine", abbreviated _ColFin_ (like the dolphin, just with collective fin(ance)s). Alternative spelling: CoFi Machine. It can be automated.
+Yes, it means "Autonomous Collective Liquidity Machine", abbreviated _ColFin_ (like the dolphin, just with collective fin(ance)s). Alternative spelling: CoFi Machine. It can be automated.
 
-Joking aside, yeah, the name A.T.M. _is_ kinda lame. And very confusing. Please [send me better ideas!](https://codeberg.org/upsiflu/learning-and-experimenting/issues/new)
+Jokes aside, yeah, the name A.T.M. _is_ kinda lame. And very confusing. Please [send me better ideas!](https://codeberg.org/upsiflu/learning-and-experimenting/issues/new)
 
 **Do I need to install an app to join an A.T.M.?**
 
-No. We have a functioning A.T.M. that uses a Signal chat, and we could do the same by telephone or on a sheet of paper. An A.T.M. requires very little bookkeeping. You just have to remember the current amount of **deposit** for each participant, and any time there is a **withdrawal**, some algorithm decides who transfers their deposit to fulfill it. Also, you cannot withdraw more than there is in deposits. And when you withdraw all of your deposit, it just makes deposit equal zero (no actual money transfer needed).
+No. We have a functioning A.T.M. that uses a Signal chat, and we could do the same by telephone or on a sheet of paper or orally. An A.T.M. requires very little bookkeeping. You just have to remember the current amount of **deposit** for each participant, and any time there is a **withdrawal**, some algorithm decides who transfers their deposit to fulfill it. Also, you cannot withdraw more than there is in deposits. And when you withdraw all of your deposit, it just makes your deposit equal zero (no actual money transfer needed).
 
-(I'd love to make an app, though. Just to make it even more convenient and safe.)
+(I'd love to make an app, though. Just to make it even more convenient and safe and detached.)
 
 **What? Algorithm?**
 
