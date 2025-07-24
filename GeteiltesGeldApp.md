@@ -31,3 +31,9 @@ Im Unterschied zum _Common Wallet_ braucht diese Methode kein Konto, auf dem Gel
   - Die App informieren, dass ich das Geld oder einen Teilbetrag erhalten habe (das kann mit Taler wahrscheinlich automatisiert werden)
   - Falls nach einigen Tagen Geld, das gesendet wurde, nicht angekommen ist, startet die App automatisch eine Untersuchung.
   - Falls nötig, meine Kontodaten angeben
+
+
+  ----
+
+
+  [-> Weitere Infos, auf englisch](https://codeberg.org/upsiflu/learning-and-experimenting/src/branch/main/ATM.md)
